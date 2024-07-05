@@ -1,0 +1,398 @@
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: hsl(35, 59%, 86%);
+    height: 60px;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    width: 80px;
+    height: auto; 
+    margin-right: 10px;
+}
+
+.navbar-brand span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    color: #222;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    color: #555;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.catalog {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 90%;
+    /* background: #fff; */
+    padding: 20px;
+}
+
+.catalog h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ff4081;
+}
+
+.title p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.title span {
+    font-size: 14px;
+    color: #888;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.product1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+}
+
+.product1.reverse {
+    background-color: hsl(35, 59%, 86%);
+    height: 692px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+.main-image img{
+    width: 120%;
+    max-width: 450px;
+    object-fit: cover; /* Ensure the image covers the area */
+    object-position: top;
+}
+
+.main-image {
+    border-radius: 8px;
+    margin-right: 180px;
+    margin-top: 0px;
+}
+
+.image img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+
+.image1 img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 200px;
+}
+
+.image2 img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-right: 130px;
+}
+
+.details{
+    width: 550px;
+    margin-left: 150px;
+}
+
+.details2{
+    width: 550px;
+    margin-right: -20px;
+}
+
+.details3{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.details2 h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.details3 h2 {
+    margin: 0;
+    font-size: 90px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.details p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.details2 p {
+    margin: 5px 0;
+    color: #888;
+    width: 430px;
+}
+
+.details3 p {
+    width: 600px;
+    font-size: 24px;
+    color: #744f25;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.instagram {
+    background-color: #feffe8;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.instagram .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.instagram h3 {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: -10px;
+}
+
+.instagram h2 {
+    font-size: 46px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.follow-btn {
+    background-color: #f09;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Space between the icon and text */
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.follow-btn:hover {
+    background-color: #c06;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.instagram-images a {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.instagram-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: opacity 0.3s;
+}
+
+.instagram-images a:hover img {
+    opacity: 0.7; /* Fades the image */
+}
+
+.instagram-images a:hover {
+    transform: scale(1.05); /* Slightly enlarges the image container */
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.footer-logo p {
+    font-size: 12px;
+    color: #999;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.footer-info-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-info-details h4 {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-info-details h5 {
+    margin: 5px 0;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-info-details p {
+    margin: 5px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-info-details i {
+    margin-right: 10px;
+    color: #28a745;
+}
+
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #28a745;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
